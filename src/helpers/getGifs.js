@@ -1,6 +1,3 @@
-/**
- * @param {string} category
- */
 export const getGifs = async (category) => {
   const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(
     category
